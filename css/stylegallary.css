@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/* the selector  *{} is used to select all elements inside the page */
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  /*file settings*/
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+  }
+  
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #111;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #29d9d5;
+    border-radius: 5rem;
+  }
+  
+  
+  /*beginning of style for html body*/
+  body {
+    background: #111;
+    overflow-x: hidden;
+  }
+  /*beginning of section styling*/
+section {
+    padding: 3rem 9%;
+  }
+  .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .heading span {
+    color: #29d9d5;
+    font-size: 2rem;
+    margin: 5rem 0;
+  }
+  
+  .heading h1 {
+    font-size: 4rem;
+    color: #fff;
+  }
+  
+  /*beginning of "bookNow" btn styling*/
+  .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #29d9d5;
+    border: 0.3rem solid #29d9d5;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+  }
+  
+  .btn:hover {
+    background: #29d9d5;
+    color: #111;
+  }
+  /*end of "bookNow" btn styling*/
+  
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+  }
+  
+  .header .navbar a {
+    font-size: 1.7rem;
+    color: #aaa;
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  .header .navbar a:hover {
+    color: #29d9d5;
+  }
+  
+  .header .btn {
+    margin-top: 0;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+  }
+  
+  .logo i {
+    color: #29d9d5;
+    padding-right: 0.5rem;
+  }
+  /*end of header styling*/
+  /*beginning of section styling*/
+section {
+    padding: 3rem 9%;
+  }
+  
+  /*beginning of "bookNow" btn styling*/
+  .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #29d9d5;
+    border: 0.3rem solid #29d9d5;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+  }
+  
+  .btn:hover {
+    background: #29d9d5;
+    color: #111;
+  }
+  .heading h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin: 3rem 0;
+}
+  /*end of "bookNow" btn styling*/
+  
+  
+  
+  
+/*bebining of gallery style*/
+/*.gallery.box-container{
+    columns: 3 25rem;
+    column-gap: 1.5rem;
+}
+   .box{
+       margin-bottom:1rem;
+       break-inside:avoid;
+   }
+
+       img{
+           width:100%;
+           border-radius: 1rem;
+           margin-bottom: 1rem;
+
+       }
+span{
+    font-size: 1.4rem;
+    color:lightgray;
+
+}
+h3{
+    margin-top: .5rem;
+    font-size: 2rem;
+    color: white;
+
+}*/
+   
+.gallery .box-container {
+    -webkit-columns: 3 25rem;
+            columns: 3 25rem;
+    -webkit-column-gap: 1.5rem;
+            column-gap: 1.5rem;
+  }
+  
+  .gallery .box-container .box {
+    margin-bottom: 1rem;
+    -webkit-column-break-inside: avoid;
+            break-inside: avoid;
+  }
+  
+  .gallery .box-container .box img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .gallery .box-container .box span {
+    font-size: 1.4rem;
+    color: #aaa;
+  }
+  
+  .gallery .box-container .box h3 {
+    margin-top: .5rem;
+    font-size: 2rem;
+    color: #fff;
+   cursor: pointer;
+  }
+  .review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .review .content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+  }
+  
+  .review .content span {
+    font-size: 2rem;
+    color: #29d9d5;
+  }
+  
+  .review .content h3 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .review .content p {
+    font-size: 1.4rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+  
+  .review .box-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .review .box-container .box {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 20rem;
+            flex: 1 1 20rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: #222;
+    border: 0.2rem solid #111;
+  }
+  
+  .review .box-container .box:hover {
+    border: 0.2rem solid #29d9d5;
+  }
+  
+  .review .box-container .box p {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    line-height: 2;
+    color: #aaa;
+  }
+  
+  .review .box-container .box .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+  }
+  
+  .review .box-container .box .user img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+  }
+  
+  .review .box-container .box .user h3 {
+    font-size: 1.7rem;
+    color: #fff;
+  }
+  
+  .review .box-container .box .user span {
+    color: #aaa;
+    font-size: 1.5rem;
+  }  
+
+/*beginning of Footer Section*/
+.footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .footer .box-container .box {
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .logo {
+    padding-bottom: 1rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box p {
+    font-size: 1.4rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+  
+  .footer .box-container .box p i {
+    padding-right: .5rem;
+    color: #29d9d5;
+  }
+  
+  .footer .box-container .box .share {
+    padding-top: 1rem;
+  }
+  
+  .footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    border: 0.2rem solid #29d9d5;
+    color: #29d9d5;
+    margin-right: .5rem;
+    text-align: center;
+  }
+  
+  .footer .box-container .box .share a:hover {
+    background: #29d9d5;
+    color: #111;
+  }
+  
+  .footer .box-container .box .links {
+    font-size: 1.4rem;
+    color: #aaa;
+    padding: 1rem 0;
+    display: block;
+  }
+  
+  .footer .box-container .box .links:hover {
+    color: #29d9d5;
+  }
+  
+  .footer .box-container .box .links:hover i {
+    padding-right: 2rem;
+  }
+  
+  .footer .box-container .box .links i {
+    padding-right: .5rem;
+    color: #29d9d5;
+  }
+  
+  .credit {
+    background: #222;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 1rem;
+    color: #aaa;
+  }
+  
+  .credit span {
+    color: #29d9d5;
+  }
+  
+  
+  
+  
+  /*End of Footer Section*/
+  
+  
+/*for responsive design*/
+
+/*for laptop full size screen size 991px*/
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 1.5rem 2rem;
+  }
+
+  section {
+    padding: 3rem 2rem;
+  }
+}
+
+/*for Tablet screen size 768px*/
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #222;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  .header .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .header .navbar a {
+    margin: 2rem;
+    font-size: 2rem;
+    display: block;
+  }
+
+  .home {
+    margin-top: 10rem;
+  }
+
+  .home .content span {
+    font-size: 8vw;
+  }
+
+  .home .content h3 {
+    font-size: 9vw;
+  }
+}
+
+/*for Mobile phone small screen size 450px*/
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/images (2).jfif">
+    <title>travel</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/stylegallary.css"> 
+
+    
+</head>
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+  
+        <a href="#" class="logo"> <i class="fas fa-paper-plane"></i> Travel </a>
+  
+        <!-- the# here to put the separate page html link later-->
+        <nav class="navbar">
+          <a href="home.html"> HOME </a>
+          <a href="destination.html" target="_blank"> DESTINATION </a>
+          <a href="gallary.html"  target="_blank" > GALLERY </a>
+          <a href="blogs.html" target="_blank"  > BLOG </a>
+          <a href="about.html" target="_blank"  >ABOUT US</a>
+        </nav>
+  
+        <a id="logOut"  href="#book-form" class="btn"> logOut </a>
+      </header>
+    <!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <div class="heading">
+        <span>our gallery</span>
+            <h1>we record memories</h1>
+
+    </div>
+    <!----<marquee scrolldelay="60" scrollamount="3" width="400" direction="left" behavior="alternate" bgcolor="#FF0000">we record memories</marquee>--->
+    
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img    id="img1" src="images/gallery-img-1.jpg"   onmouseover="setNewImageOne1()" onmouseout="setOldImageOne1()" alt="">
+            
+            <span>travel spot</span>
+            <h3 onclick="handelclick()">iceland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img   id="img2" src="images/gallery-img-2.jpg"  onmouseover="setNewImageOne2()" onmouseout="setOldImageOne2()" alt="">
+            <span>travel spot</span>
+            <h3 onclick="handelclick5()">greenland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img id="img3" src="images/gallery-img-3.jpg"  onmouseover="setNewImageOne3()"  onmouseout="setOldImageOne3()"  alt="">
+            <span>travel spot</span>
+            <h3 onclick="handelclick3()">alaska</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img   id="img4"   src="images/gallery-img-4.jpg"  onmouseover="setNewImageOne4()"  onmouseout="setOldImageOne4()"      alt="">
+            <span>travel spot</span>
+            <h3 onclick="handelclick2()">thailand</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img id="img5"    src="images/gallery-img-5.jpg"  onmouseover="setNewImageOne5()"  onmouseout="setOldImageOne5()"    alt="">
+            <span>travel spot</span>
+            <h3 onclick="handelclick4()">brazil</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img  id="img6"      src="images/gallery-img-6.jpg"  onmouseover="setNewImageOne6()"   onmouseout="setOldImageOne6()"   alt="">
+            <span>travel spot</span>
+            <h3 onclick="handelclick6()">maldive</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img       id="img7" src="images/gallery-img-7.jpg"  onmouseover="setNewImageOne7()"  onmouseout="setOldImageOne7()" alt="">
+            <span>travel spot</span>
+            <h3 onclick="handelclick()">iceland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img    id="img8" src="images/gallery-img-8.jpg"   onmouseover="setNewImageOne8()" onmouseout="setOldImageOne8()" alt="">
+            <span>travel spot</span>
+            <h3 onclick="handelclick3()">alaska</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img  id="img9"    src="images/gallery-img-9.jpg"  onmouseover="setNewImageOne9()"   onmouseout="setOldImageOne9()" alt="">
+            <span>travel spot</span>
+            <h3 onclick="handelclick6()">maldive</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+ <!-- beginning of Footer Section -->
+ <section class="footer">
+    <div class="box-container">
+
+      <div class="box">
+        <a href="#" class="logo"> <i class="fas fa-paper-plane"></i> Travel </a>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Minus eaque esse unde adipisci quasi commodi totam culpa?
+        </p>
+        
+        <div class="share">
+          <a href="" class="fab fa-facebook"></a>
+          <a href="" class="fab fa-twitter"></a>
+          <a href="" class="fab fa-instagram"></a>
+          <a href="" class="fab fa-linkedin"></a>
+        </div>
+
+      </div>
+
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> About </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Destination </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Service </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Gallery </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a>
+      </div>
+
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <p> <i class="far fa-flag"></i> ITI Assiut Branch</p>
+        <p> <i class="fas fa-code"></i> Software fundamentals Track</p>
+        <p> <i class="fas fa-eye"></i> Under Vision: Eng/Abanoub Nabil</p>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="js/script.js"  ></script>
+  <script src="js/main.js"  ></script>
+    
+</body>
+</html>
+
+
+
